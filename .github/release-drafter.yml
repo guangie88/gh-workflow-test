@@ -39,11 +39,11 @@ template: |
 
 replacers:
   # e.g. feat(web): add xxx -> web: add xxx
-  - search: '/(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w)(\w*)\)\s*(\w)/g'
-    replace: '$1$2: $3'
+  - search: '/(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w+)\)\s*(\w)/g'
+    replace: '$1: $2'
   # e.g. chore: change xxx -> change xxx
   - search: '/(?:feat:|fix:|perf:|refactor:|chore:|ci:|build:|test:)\s*/g'
-    replace: '$1'
+    replace: ''
 
   # For capitalizing the first letter in every sentence
   - search: '/^a$/g'
