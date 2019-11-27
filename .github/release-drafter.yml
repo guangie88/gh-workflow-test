@@ -39,87 +39,87 @@ template: |
 
 replacers:
   # e.g. feat(web): add xxx -> web: add xxx
-  - search: '/(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w+)\)\s*(\w)/g'
-    replace: '$1: $2'
+  - search: '/(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w+)\):\s*/g'
+    replace: '$1: '
   # e.g. chore: change xxx -> change xxx
   - search: '/(?:feat:|fix:|perf:|refactor:|chore:|ci:|build:|test:)\s*/g'
     replace: ''
 
   # For capitalizing the first letter in every sentence
-  - search: '/^a$/g'
+  - search: '/^a/g'
     replace: 'A'
 
-  - search: '/^b$/g'
+  - search: '/^b/g'
     replace: 'B'
 
-  - search: '/^c$/g'
+  - search: '/^c/g'
     replace: 'C'
 
-  - search: '/^d$/g'
+  - search: '/^d/g'
     replace: 'D'
 
-  - search: '/^e$/g'
+  - search: '/^e/g'
     replace: 'E'
 
-  - search: '/^f$/g'
+  - search: '/^f/g'
     replace: 'F'
 
-  - search: '/^g$/g'
+  - search: '/^g/g'
     replace: 'G'
 
-  - search: '/^h$/g'
+  - search: '/^h/g'
     replace: 'H'
 
-  - search: '/^i$/g'
+  - search: '/^i/g'
     replace: 'I'
 
-  - search: '/^j$/g'
+  - search: '/^j/g'
     replace: 'J'
 
-  - search: '/^k$/g'
+  - search: '/^k/g'
     replace: 'K'
 
-  - search: '/^l$/g'
+  - search: '/^l/g'
     replace: 'L'
 
-  - search: '/^m$/g'
+  - search: '/^m/g'
     replace: 'M'
 
-  - search: '/^n$/g'
+  - search: '/^n/g'
     replace: 'N'
 
-  - search: '/^o$/g'
+  - search: '/^o/g'
     replace: 'O'
 
-  - search: '/^p$/g'
+  - search: '/^p/g'
     replace: 'P'
 
-  - search: '/^q$/g'
+  - search: '/^q/g'
     replace: 'Q'
 
-  - search: '/^r$/g'
+  - search: '/^r/g'
     replace: 'R'
 
-  - search: '/^s$/g'
+  - search: '/^s/g'
     replace: 'S'
 
-  - search: '/^t$/g'
+  - search: '/^t/g'
     replace: 'T'
 
-  - search: '/^u$/g'
+  - search: '/^u/g'
     replace: 'U'
 
-  - search: '/^v$/g'
+  - search: '/^v/g'
     replace: 'V'
 
-  - search: '/^w$/g'
+  - search: '/^w/g'
     replace: 'W'
 
-  - search: '/^x$/g'
+  - search: '/^x/g'
     replace: 'X'
 
-  - search: '/^y$/g'
+  - search: '/^y/g'
     replace: 'Y'
 
-  - search: '/^z$/g'
+  - search: '/^z/g'
     replace: 'Z'
