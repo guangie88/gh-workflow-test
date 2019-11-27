@@ -1,0 +1,46 @@
+name-template: 'v$NEXT_PATCH_VERSION' # defaults to patch version
+tag-template: 'v$NEXT_PATCH_VERSION'
+
+branches:
+  - master
+
+categories:
+  - title: 💥 Breaking Changes
+    label: 'BREAKING CHANGE'
+
+  - title: ✨ Features
+    label: 'feat'
+
+  - title: 🐛 Bug Fixes
+    label: 'fix'
+
+  - title: 🚀 Improvements
+    label: 'perf'
+
+  - title: 🔧 Code Improvements
+    label: 'refactor'
+
+  - title: 🚧 Maintenance
+    label: 'chore'
+
+  - title: 👷 CI/CD
+    label: 'ci'
+
+  - title: 🔩 Build
+    label: 'build'
+
+  - title: 💯 Tests
+    label: 'test'
+
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+template: |
+  ## Changes
+  $CHANGES
+
+replacers:
+  # e.g. feat(web): add xxx -> Web: Add xxx
+  - search: '(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w)(\w*)\)\s*(\w)'
+    replace: '\L$1$2: $3'
+  # e.g. chore: change xxx -> Change xxx
+  - search: '(?:feat:|fix:|perf:|refactor:|chore:|ci:|build:|test:)\s*(\w)'
+    replace: '\L$1'
