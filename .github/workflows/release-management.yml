@@ -1,6 +1,9 @@
 # https://github.com/toolmantim/release-drafter
 name: Release Management
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   update_draft_release:
