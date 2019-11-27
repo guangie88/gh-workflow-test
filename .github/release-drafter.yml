@@ -39,8 +39,8 @@ template: |
 
 replacers:
   # e.g. feat(web): add xxx -> Web: Add xxx
-  - search: '(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w)(\w*)\)\s*(\w)'
+  - search: '/(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w)(\w*)\)\s*(\w)/g'
     replace: '\L$1$2: $3'
   # e.g. chore: change xxx -> Change xxx
-  - search: '(?:feat:|fix:|perf:|refactor:|chore:|ci:|build:|test:)\s*(\w)'
+  - search: '/(?:feat:|fix:|perf:|refactor:|chore:|ci:|build:|test:)\s*(\w)/g'
     replace: '\L$1'
