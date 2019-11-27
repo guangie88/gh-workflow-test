@@ -46,80 +46,80 @@ replacers:
     replace: '$1: '
 
   # For capitalizing the first letter in every bullet point
-  - search: '/^\s*\W+\s*a/g'
-    replace: 'A'
+  - search: '/^(\W\s+)a/gm'
+    replace: '$1A'
 
-  - search: '/^\s*\W+\s*b/g'
-    replace: 'B'
+  - search: '/^(\W\s+)b/gm'
+    replace: '$1B'
 
-  - search: '/^\s*\W+\s*c/g'
-    replace: 'C'
+  - search: '/^(\W\s+)c/gm'
+    replace: '$1C'
 
-  - search: '/^\s*\W+\s*d/g'
-    replace: 'D'
+  - search: '/^(\W\s+)d/gm'
+    replace: '$1D'
 
-  - search: '/^\s*\W+\s*e/g'
-    replace: 'E'
+  - search: '/^(\W\s+)e/gm'
+    replace: '$1E'
 
-  - search: '/^\s*\W+\s*f/g'
-    replace: 'F'
+  - search: '/^(\W\s+)f/gm'
+    replace: '$1F'
 
-  - search: '/^\s*\W+\s*g/g'
-    replace: 'G'
+  - search: '/^(\W\s+)g/gm'
+    replace: '$1G'
 
-  - search: '/^\s*\W+\s*h/g'
-    replace: 'H'
+  - search: '/^(\W\s+)h/gm'
+    replace: '$1H'
 
-  - search: '/^\s*\W+\s*i/g'
-    replace: 'I'
+  - search: '/^(\W\s+)i/gm'
+    replace: '$1I'
 
-  - search: '/^\s*\W+\s*j/g'
-    replace: 'J'
+  - search: '/^(\W\s+)j/gm'
+    replace: '$1J'
 
-  - search: '/^\s*\W+\s*k/g'
-    replace: 'K'
+  - search: '/^(\W\s+)k/gm'
+    replace: '$1K'
 
-  - search: '/^\s*\W+\s*l/g'
-    replace: 'L'
+  - search: '/^(\W\s+)l/gm'
+    replace: '$1L'
 
-  - search: '/^\s*\W+\s*m/g'
-    replace: 'M'
+  - search: '/^(\W\s+)m/gm'
+    replace: '$1M'
 
-  - search: '/^\s*\W+\s*n/g'
-    replace: 'N'
+  - search: '/^(\W\s+)n/gm'
+    replace: '$1N'
 
-  - search: '/^\s*\W+\s*o/g'
-    replace: 'O'
+  - search: '/^(\W\s+)o/gm'
+    replace: '$1O'
 
-  - search: '/^\s*\W+\s*p/g'
-    replace: 'P'
+  - search: '/^(\W\s+)p/gm'
+    replace: '$1P'
 
-  - search: '/^\s*\W+\s*q/g'
-    replace: 'Q'
+  - search: '/^(\W\s+)q/gm'
+    replace: '$1Q'
 
-  - search: '/^\s*\W+\s*r/g'
-    replace: 'R'
+  - search: '/^(\W\s+)r/gm'
+    replace: '$1R'
 
-  - search: '/^\s*\W+\s*s/g'
-    replace: 'S'
+  - search: '/^(\W\s+)s/gm'
+    replace: '$1S'
 
-  - search: '/^\s*\W+\s*t/g'
-    replace: 'T'
+  - search: '/^(\W\s+)t/gm'
+    replace: '$1T'
 
-  - search: '/^\s*\W+\s*u/g'
-    replace: 'U'
+  - search: '/^(\W\s+)u/gm'
+    replace: '$1U'
 
-  - search: '/^\s*\W+\s*v/g'
-    replace: 'V'
+  - search: '/^(\W\s+)v/gm'
+    replace: '$1V'
 
-  - search: '/^\s*\W+\s*w/g'
-    replace: 'W'
+  - search: '/^(\W\s+)w/gm'
+    replace: '$1W'
 
-  - search: '/^\s*\W+\s*x/g'
-    replace: 'X'
+  - search: '/^(\W\s+)x/gm'
+    replace: '$1X'
 
-  - search: '/^\s*\W+\s*y/g'
-    replace: 'Y'
+  - search: '/^(\W\s+)y/gm'
+    replace: '$1Y'
 
-  - search: '/^\s*\W+\s*z/g'
-    replace: 'Z'
+  - search: '/^(\W\s+)z/gm'
+    replace: '$1Z'
