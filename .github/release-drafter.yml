@@ -38,88 +38,88 @@ template: |
   $CHANGES
 
 replacers:
-  # e.g. feat(web): add xxx -> web: add xxx
-  - search: '/(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w+)\):\s*/g'
-    replace: '$1: '
   # e.g. chore: change xxx -> change xxx
   - search: '/(?:feat:|fix:|perf:|refactor:|chore:|ci:|build:|test:)\s*/g'
     replace: ''
+  # e.g. feat(web): add xxx -> web: add xxx
+  - search: '/(?:feat|fix|perf|refactor|chore|ci|build|test)\((\w+)\):\s*/g'
+    replace: '$1: '
 
-  # For capitalizing the first letter in every sentence
-  - search: '/^a/g'
+  # For capitalizing the first letter in every bullet point
+  - search: '/^\s*\W+\s*a/g'
     replace: 'A'
 
-  - search: '/^b/g'
+  - search: '/^\s*\W+\s*b/g'
     replace: 'B'
 
-  - search: '/^c/g'
+  - search: '/^\s*\W+\s*c/g'
     replace: 'C'
 
-  - search: '/^d/g'
+  - search: '/^\s*\W+\s*d/g'
     replace: 'D'
 
-  - search: '/^e/g'
+  - search: '/^\s*\W+\s*e/g'
     replace: 'E'
 
-  - search: '/^f/g'
+  - search: '/^\s*\W+\s*f/g'
     replace: 'F'
 
-  - search: '/^g/g'
+  - search: '/^\s*\W+\s*g/g'
     replace: 'G'
 
-  - search: '/^h/g'
+  - search: '/^\s*\W+\s*h/g'
     replace: 'H'
 
-  - search: '/^i/g'
+  - search: '/^\s*\W+\s*i/g'
     replace: 'I'
 
-  - search: '/^j/g'
+  - search: '/^\s*\W+\s*j/g'
     replace: 'J'
 
-  - search: '/^k/g'
+  - search: '/^\s*\W+\s*k/g'
     replace: 'K'
 
-  - search: '/^l/g'
+  - search: '/^\s*\W+\s*l/g'
     replace: 'L'
 
-  - search: '/^m/g'
+  - search: '/^\s*\W+\s*m/g'
     replace: 'M'
 
-  - search: '/^n/g'
+  - search: '/^\s*\W+\s*n/g'
     replace: 'N'
 
-  - search: '/^o/g'
+  - search: '/^\s*\W+\s*o/g'
     replace: 'O'
 
-  - search: '/^p/g'
+  - search: '/^\s*\W+\s*p/g'
     replace: 'P'
 
-  - search: '/^q/g'
+  - search: '/^\s*\W+\s*q/g'
     replace: 'Q'
 
-  - search: '/^r/g'
+  - search: '/^\s*\W+\s*r/g'
     replace: 'R'
 
-  - search: '/^s/g'
+  - search: '/^\s*\W+\s*s/g'
     replace: 'S'
 
-  - search: '/^t/g'
+  - search: '/^\s*\W+\s*t/g'
     replace: 'T'
 
-  - search: '/^u/g'
+  - search: '/^\s*\W+\s*u/g'
     replace: 'U'
 
-  - search: '/^v/g'
+  - search: '/^\s*\W+\s*v/g'
     replace: 'V'
 
-  - search: '/^w/g'
+  - search: '/^\s*\W+\s*w/g'
     replace: 'W'
 
-  - search: '/^x/g'
+  - search: '/^\s*\W+\s*x/g'
     replace: 'X'
 
-  - search: '/^y/g'
+  - search: '/^\s*\W+\s*y/g'
     replace: 'Y'
 
-  - search: '/^z/g'
+  - search: '/^\s*\W+\s*z/g'
     replace: 'Z'
